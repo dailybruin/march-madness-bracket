@@ -1,0 +1,11 @@
+Red - #DC3D24
+Grey Black - #232B2B
+Black - #FFFFFF
+Light orange - #E3AE57
+
+
+Teal - #00ACE9
+Red - #D43F3F
+Green - #6A9A1F
+Cream - #F6F6E8
+Grey - #404040
