@@ -1,0 +1,68 @@
+.outercolumns
+{
+
+}
+
+.schoolheader
+{
+width:100%;
+background-color: #63aa9c;
+}
+
+.schoollist
+{
+width:100%;
+}
+
+.sideicon
+{
+width:50%;
+}
+
+.sidetext
+{
+width:50%;
+}
+
+.bracketlist
+{
+width:100%;
+}
+
+.bracketicon
+{
+width:50%;
+float:left;
+}
+
+.middlecolumns
+{
+	
+}
+
+.facebooktext
+{
+color: #eceae0;
+}
+
+.vanilla
+{
+background-color: #eceae0;
+}
+
+#headerblock
+{
+background-image: url('../images/basketballheader.png');
+}
+
+#separatorbar
+{
+background-color: #DC3D24;
+width: 100%;
+height: 5px;
+}
+
+body
+{
+background: #1d1d1d;
+}
