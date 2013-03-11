@@ -9,19 +9,54 @@ width:100%;
 background-color: #63aa9c;
 }
 
-.schoollist
+.schoolvsschool
 {
+/*
+border-radius: .5em;
+border: .1em solid #333333;
+*/
 width:100%;
 }
 
-.sideicon
+.schoolimageblock
 {
-width:50%;
+width:20%;
 }
 
-.sidetext
+.schooltextblock
 {
-width:50%;
+width:25%;
+text-align: center;
+color: #333333;
+}
+
+.schoolvs
+{
+width:10%;
+}
+
+.schoolvsblock
+{
+width:10%;
+}
+
+.middletwo
+{
+width:25%;
+margin:	auto;
+}
+
+.clear
+{
+display:block;
+width:100%;
+clear:both;
+height: 0em;
+}
+
+.schoollist
+{
+width:100%;
 }
 
 .bracketlist
