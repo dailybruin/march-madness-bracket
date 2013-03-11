@@ -64,11 +64,16 @@ width:100%;
 width:100%;
 }
 
+.roundedborder
+{
+border-radius: .3em;
+border: .15em solid #63aa9c;
+}
+
 .bracketicon
 {
 width:50%;
 float:left;
-border: #e3ae57;
 }
 
 .middleicon
