@@ -9,13 +9,19 @@ width:100%;
 background-color: #63aa9c;
 }
 
+.has-tip
+{
+font-size: .8em;
+}
+
 .schoolvsschool
 {
-/*
+
 border-radius: .5em;
 border: .1em solid #333333;
-*/
+
 width:100%;
+margin-top: .2em;
 }
 
 .schoolimageblock
