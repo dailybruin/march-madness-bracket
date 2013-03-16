@@ -21,10 +21,13 @@ border-radius: .5em;
 border: .1em solid #333333;
 */
 width:100%;
-margin-top: .2em;
-
+margin-top: .25em;
 }
 
+.bracket
+{
+
+}
 .bordertop
 {
 border-top: .15em solid #63aa9c;
@@ -52,12 +55,12 @@ border-right: .15em solid #63aa9c;
 
 .schoolimageblock
 {
-width:24%;
+width:15%;
 }
 
 .schooltextblock
 {
-width:21%;
+width:30%;
 text-align: center;
 color: #333333;
 }
