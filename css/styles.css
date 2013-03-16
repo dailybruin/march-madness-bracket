@@ -16,22 +16,48 @@ font-size: .8em;
 
 .schoolvsschool
 {
-
+/*
 border-radius: .5em;
 border: .1em solid #333333;
-
+*/
 width:100%;
 margin-top: .2em;
+
+}
+
+.bordertop
+{
+border-top: .15em solid #63aa9c;
+}
+
+.borderbot
+{
+border-bottom: .15em solid #63aa9c;
+}
+
+.borderleft
+{
+border-left: .15em solid #63aa9c;
+}
+
+.borderright
+{
+/*
+border-bottom: .15em solid #63aa9c;
+border-radius: .3em;
+*/
+border-right: .15em solid #63aa9c;
+
 }
 
 .schoolimageblock
 {
-width:20%;
+width:24%;
 }
 
 .schooltextblock
 {
-width:25%;
+width:21%;
 text-align: center;
 color: #333333;
 }
