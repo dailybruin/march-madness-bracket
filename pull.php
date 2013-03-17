@@ -1,24 +1,34 @@
 <?php
 require_once "includes/dbconnect.inc.php";
 
-$jsonarray=array();
-try
-	{
-		$sql = 'SELECT * FROM main';
-		$result = $pdo->query($sql);												
-	}
-catch(PDOException $e)
-	{
-		$error = 'Error fetching data: ' . $e->getMessage();
-		include 'error.tpl';
-		exit(); 
-	}
+function array_push_assoc(&$array, $key, $value){
+$array[$key] = $value;
+}
 
-foreach($result as $row)			
-	{
-		$object = array("id"=>$row['id'],"name"=>$row['teamname'],"pic_url"=>$row['pic_url']);
-		$json = json_encode($object);
-		print $json;
-		print "\n";
-	}
+if (isset($_GET['f_id'])) {
+	try
+		{
+			$sql = 'SELECT * FROM users INNER JOIN main ON team_id = main.id WHERE f_id ='.$_GET['f_id'];
+			$result = $pdo->query($sql);												
+		}
+	catch(PDOException $e)
+		{
+			$error = 'Error fetching data: ' . $e->getMessage();
+			include 'error.tpl';
+			exit(); 
+		}
+	$data = array();
+	foreach($result as $row)			
+		{
+			array_push_assoc($data, $row['bracket_id'], $row['pic_url']);
+		}
+	
+	$json = json_encode($data);
+	print $json;
+	print "</br>";
+}
+
+else
+	echo "set facebook id";
+
 ?>
