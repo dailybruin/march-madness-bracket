@@ -15,3 +15,4 @@ function getInnerImage() {
 	return this.getElementsByTagName("img")[0].src;
 	
 }
+
