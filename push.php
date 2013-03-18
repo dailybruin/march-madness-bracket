@@ -1,71 +1,79 @@
 <?php
+require_once "CONFIG.php";
 require_once "includes/dbconnect.inc.php";
+require_once "backend/fb/src/facebook.php";
 
-//STILL NEED TO WRITE CODE TO RETRIEVE USER ID AND PUT IT INTO THE VARIABLE $UID.
-//ACCESS USER TABLE AND SEARCH FOR MATCHING FACEBOOK ID
+$facebook = new Facebook(array(
+  'appId'  => FB_APPID,
+  'secret' => FB_SECRET,
+));
 
-//IF USER DOES NOT EXIST IN TABLE, CREATE NEW USER... 
 
-
-if (isset($_POST['json']))
+// Get the current FB user. The login button on the frontend should
+// set this
+$fbuser = $facebook->getUser();
+if($fbuser == 0)
 {
-	//Yo, I requirez json string through POST
-	$json = $_POST['json'];
-	$json = stripslashes($json);
-	//Turn JSONz to associative array doe
-	$data = json_decode($json,true);
+	echo "Please log into Facebook";
+	exit();
+}
 
-	foreach ($data as $bracket_id=>$team_id)
+//Yo, I requirez json string through POST
+if(!isset($_POST['json']))
+	exit();
+
+$json = $_POST['json'];
+$json = stripslashes($json);
+//Turn JSONz to associative array doe
+$data = json_decode($json,true);
+
+// Check if we already have a user with this facebook ID.
+// If so let's get their UID
+$newuser = false;
+$sql = 'SELECT uid FROM user WHERE fb_id = :fbid';
+$stmt = $pdo->prepare($sql);
+$stmt->execute(array(':fbid' => $fbuser));
+$usr = $stmt->fetchColumn();
+if(!$usr)
+{
+	// We need to create a new user in the DB
+	$newuser = true;
+	$sql = 'INSERT INTO user (fb_id) VALUES (:fbid)';
+	$stmt = $pdo->prepare($sql);
+	$stmt->execute(array(':fbid' => $fbuser));
+	$usr = $pdo->lastInsertId();
+}
+if(!$newuser)
+{
+	// If it's an old user, delete their old bracket
+	$sql = 'DELETE FROM team_user WHERE uid = :uid';
+	$stmt = $pdo->prepare($sql);
+	$stmt->execute();
+}
+
+
+// Insert this JSON data into the database
+foreach ($data as $bracket_id=>$team_id)
+{
+	try
 	{
-		if (isset($_POST['newuser'])) {
-			try
-			{
-				$sql = 'INSERT INTO team_user (uid,bracket_location,tid) 
-						VALUES (:uid,:bracket_location,:tid)';
-				$s = $pdo->prepare($sql);
-				//Still need to write the code to obtain UID... 
-				$s->bindValue(':uid', $uid);
-				$s->bindValue(':bracket_location', $bracket_id);
-				$s->bindValue(':tid', $team_id);
-				$s->execute();
-			}
-			catch (PDOException $e)
-			{
-				if(DEBUG)
-					$error = 'Error inputting data: ' . $e->getMessage();
-				else
-					$error = 'Error inputting data.';
-				echo $error;
-				exit(); 
-			}
-		}
-
-		else if (isset($_POST['updateuser'])) {
-			try
-			{
-				$sql = 'UPDATE team_user SET
-						bracket_location = :bracket_location, 
-						tid = :tid, 
-						WHERE id = :id';
-				$s = $pdo->prepare($sql);
-				//Still need to write the code to obtain UID... 
-				$s->bindValue(':id', $uid);
-				$s->bindValue(':bracket_location', $bracket_id);
-				$s->bindValue(':tid', $team_id);
-				$s->execute();
-			}
-			catch (PDOException $e)
-			{
-				if(DEBUG)
-					$error = 'Error inputting data: ' . $e->getMessage();
-				else
-					$error = 'Error inputting data.';
-				echo $error;
-				exit(); 
-			}
-		}
+		$sql = 'INSERT INTO team_user (uid,bracket_location,tid) 
+				VALUES (:uid,:bracket_location,:tid)';
+		$s = $pdo->prepare($sql);
+		$s->bindValue(':uid', $uid);
+		$s->bindValue(':bracket_location', $bracket_id);
+		$s->bindValue(':tid', $team_id);
+		$s->execute();
 	}
-
+	catch (PDOException $e)
+	{
+		if(DEBUG)
+			$error = 'Error inputting data: ' . $e->getMessage();
+		else
+			$error = 'Error inputting data.';
+		echo $error;
+		exit(); 
+	}
 
 }
 
