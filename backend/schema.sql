@@ -6,19 +6,21 @@ CREATE TABLE team (
 	PRIMARY KEY (tid)
 ) ENGINE=InnoDB;
 
-CREATE TABLE team_user (
-	uid INT NOT NULL,
-	bracket_location varchar(255) NOT NULL,
-	tid INT NOT NULL,
-	PRIMARY KEY (uid, bracket_location),
-	FOREIGN KEY (tid) REFERENCES team(tid)
-) ENGINE=InnoDB;
-
 CREATE TABLE user (
 	uid INT AUTO_INCREMENT NOT NULL,
 	fb_id INT,
 	PRIMARY KEY (uid)
 ) ENGINE=InnoDB;
+
+CREATE TABLE team_user (
+	uid INT NOT NULL,
+	bracket_location varchar(255) NOT NULL,
+	tid INT NOT NULL,
+	PRIMARY KEY (uid, bracket_location),
+	FOREIGN KEY (tid) REFERENCES team(tid),
+	FOREIGN KEY (uid) REFERENCES user(uid)
+) ENGINE=InnoDB;
+
 
 -- Sample data
 INSERT INTO user
