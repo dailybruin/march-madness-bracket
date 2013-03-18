@@ -8,6 +8,7 @@ $facebook = new Facebook(array(
   'secret' => FB_SECRET,
 ));
 
+error_log(print_r($_POST,true));
 
 // Get the current FB user. The login button on the frontend should
 // set this
@@ -23,9 +24,9 @@ if(!isset($_POST['json']))
 	exit();
 
 $json = $_POST['json'];
-$json = stripslashes($json);
 //Turn JSONz to associative array doe
-$data = json_decode($json,true);
+// $data = json_decode($json,true);
+$data = $json;
 
 // Check if we already have a user with this facebook ID.
 // If so let's get their UID
@@ -48,19 +49,25 @@ if(!$newuser)
 	// If it's an old user, delete their old bracket
 	$sql = 'DELETE FROM team_user WHERE uid = :uid';
 	$stmt = $pdo->prepare($sql);
-	$stmt->execute();
+	$stmt->execute(array(':uid' => $usr));
 }
 
 
 // Insert this JSON data into the database
-foreach ($data as $bracket_id=>$team_id)
+foreach ($data as $bracket_id=>$team_url)
 {
 	try
 	{
+		$sql = 'SELECT tid FROM team WHERE tpic_url = :turl';
+		$stmt = $pdo->prepare($sql);
+		$stmt->execute(array(':turl' => $team_url));
+		$team_id = $stmt->fetchColumn();
+		error_log("TEAM ID" . $team_id);
+
 		$sql = 'INSERT INTO team_user (uid,bracket_location,tid) 
 				VALUES (:uid,:bracket_location,:tid)';
 		$s = $pdo->prepare($sql);
-		$s->bindValue(':uid', $uid);
+		$s->bindValue(':uid', $usr);
 		$s->bindValue(':bracket_location', $bracket_id);
 		$s->bindValue(':tid', $team_id);
 		$s->execute();

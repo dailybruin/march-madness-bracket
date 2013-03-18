@@ -1,5 +1,65 @@
+// This function is called whenever a team's location is changed in the bracket
 function changeImage(id, a) {
-    document.getElementById(id).src=a;
+	$('#'+id).attr('src',a);
+    bracket = getWholeBracket();
+    $.ajax({
+    	type: "POST",
+    	url: "push.php",
+    	data: {"json": bracket},
+    	// success: function(data)
+    	// {
+    	// 	console.log(data);
+    	// }
+    })
+}
+
+// setBracket()
+// Sets the entire bracket based on the current facebook user. Set this as the
+// callback for the facebook login
+//  Parmaters: none
+//  Returns: none
+function setBracket()
+{
+	$.ajax({
+		type: "GET",
+		url: "pull.php",
+		dataType: "json",
+		success: function(data)
+		{
+			for(key in data)
+				$('#'+key).attr('src',data[key]);
+		}
+	});
+}
+
+
+// getWholeBracket()
+//  Parameters: none
+//  Returns: object that represents entire bracket with only the user's
+//   customizations
+function getWholeBracket()
+{
+	var bracketCounts = new Array();
+	bracketCounts[1] = 32;
+	bracketCounts[2] = 16;
+	bracketCounts[3] = 8;
+	bracketCounts[4] = 4;
+	bracketCounts[5] = 2;
+	bracketCounts[6] = 1;
+
+	var bracket = new Object();
+
+	for(var i = 1; i < bracketCounts.length; i++)
+	{
+		for(var j = 1; j <= bracketCounts[i]; j++)
+		{
+			var team_url = $('#'+i+'-'+j).attr('src');	
+			if(team_url != 'images/centersquare.png'
+				&& team_url != 'images/square.png')
+				bracket[i+'-'+j] = team_url.substring(team_url.indexOf('images'));
+		}
+	}
+	return bracket;
 }
 
 function squareToWide(a) {
