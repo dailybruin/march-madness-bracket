@@ -8,8 +8,6 @@ $facebook = new Facebook(array(
   'secret' => FB_SECRET,
 ));
 
-error_log(print_r($_POST,true));
-
 // Get the current FB user. The login button on the frontend should
 // set this
 $fbuser = $facebook->getUser();
@@ -62,7 +60,6 @@ foreach ($data as $bracket_id=>$team_url)
 		$stmt = $pdo->prepare($sql);
 		$stmt->execute(array(':turl' => $team_url));
 		$team_id = $stmt->fetchColumn();
-		error_log("TEAM ID" . $team_id);
 
 		$sql = 'INSERT INTO team_user (uid,bracket_location,tid) 
 				VALUES (:uid,:bracket_location,:tid)';
