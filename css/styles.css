@@ -22,10 +22,7 @@ font-size: .8em;
 
 .schoolvsschool
 {
-/*
-border-radius: .5em;
-border: .1em solid #333333;
-*/
+
 width:100%;
 margin-top: .25em;
 }
@@ -51,12 +48,7 @@ border-left: .15em solid #63aa9c;
 
 .borderright
 {
-/*
-border-bottom: .15em solid #63aa9c;
-border-radius: .3em;
-*/
 border-right: .15em solid #63aa9c;
-
 }
 
 .schoolimageblock
@@ -135,6 +127,11 @@ font-size: 0.9em;
 .vanilla
 {
 background-color: #eceae0;
+}
+
+.button
+{
+background-color: #63aa9c;
 }
 
 #headerblock
