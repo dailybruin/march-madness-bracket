@@ -1,0 +1,3 @@
+[submodule "backend/fb"]
+	path = backend/fb
+	url = git://github.com/facebook/facebook-php-sdk.git
