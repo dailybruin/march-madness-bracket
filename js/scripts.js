@@ -22,10 +22,11 @@ function changeImage(id, a) {
 //  Returns: none
 function setBracket(uid)
 {
-    setPermalink();
 	var sendData = new Object();
 	if(uid != undefined)
 		sendData['uid'] = uid;
+	else
+	    setPermalink();
 	$.ajax({
 		type: "GET",
 		url: "pull.php",
