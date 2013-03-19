@@ -3,7 +3,6 @@ if(isset($_GET['b']))
 	$static_bracket = true;
 else
 	$static_bracket = false;
-if($static_bracket)
 ?><!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -69,6 +68,7 @@ if($static_bracket)
 				testAPI();
 	            document.getElementById('FBconnect').src="images/FBconnectgrey.png";
 	            document.getElementById('FBlink').onclick = function() { return 0; };
+	            setPermalink();
 	    	}
 	    });
 	  };
@@ -80,6 +80,7 @@ if($static_bracket)
 		            testAPI();
 		            document.getElementById('FBconnect').src="images/FBconnectgrey.png";
 		            document.getElementById('FBlink').onclick = function() { return 0; };
+		            setPermalink();
 		            
 		        } else {
 		            // cancelled
@@ -120,6 +121,7 @@ if($static_bracket)
   			</div>
   			<div class="large-4 text-right columns">
 	  			<a href="bracket-print.pdf" class="tiny button" target="_blank">Download printable PDF bracket</a>
+	  			<div id="share-link"></div>
   			</div>
 	  		</div>
   		</div>
@@ -807,8 +809,7 @@ if($static_bracket)
 	  		</a>
 		  	<?php else: ?>
 		  		<div id="bracket-name">
-			  		<span>This is a TEST BRACKET.</span>
-			  		<a href="index.php">Click here to create your own</a>
+			  		<a href="index.php">Click here to create your own bracket</a>
 			  	</div><!-- end div#bracket-name -->
 		    <?php endif; ?>
 	  		<span id="FBmessage"></span>
@@ -1531,7 +1532,10 @@ if($static_bracket)
 
   </div>
 	  
-   </div>
+   </div><!-- end div.row.vanilla -->
+<div class="row" id="row-credit">
+	<span>Interactive bracket by Calvin Chan, Daniel Duan, and Forrest Lee.</span>
+</div><!-- end div#row-credit -->
    <!-- Joyride guides -->
    <ol class="joyride-list" data-joyride data-options="cookieMonster: true">
   <li data-id="FBconnect" data-text="Next" data-options="tipAnimation:fade">
@@ -1562,6 +1566,7 @@ $(document).foundation();
 	$(document).ready(function(){
 		$('.schoolimageblock > a').attr('onclick','').unbind('click');
 		$('.bracketicon > a').attr('onclick','').unbind('click');
+		setBracket(<?php echo $_GET['b']; ?>);
 	});
 <?php endif; ?>
 

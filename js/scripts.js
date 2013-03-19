@@ -16,17 +16,21 @@ function changeImage(id, a) {
 // setBracket()
 // Sets the entire bracket based on the current facebook user. Set this as the
 // callback for the facebook login
-//  Parmaters: none
+//  Parmaters: 
+//		uid (optional) is the user id (not FB id) to set the bracket to instead
 //  Returns: none
-function setBracket()
+function setBracket(uid)
 {
+	var sendData = new Object();
+	if(uid != undefined)
+		sendData['uid'] = uid;
 	$.ajax({
 		type: "GET",
 		url: "pull.php",
+		data: sendData,
 		dataType: "json",
 		success: function(data)
 		{
-			console.log(data);
 			for(key in data)
 				$('#'+key).attr('src',data[key]);
 		}
@@ -88,3 +92,19 @@ function initLogoutButton()
 	});
 }
 
+
+function setPermalink()
+{
+	var permalink;
+	$.ajax({
+		type: "GET",
+		url: "whoami.php",
+		dataType: "json",
+		success: function(data)
+		{
+			permalink = data['permalink'];
+			$('#share-link').html('<a href="' + permalink + 
+				'">Link to this bracket</a>');
+		}
+	});
+}
