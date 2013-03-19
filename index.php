@@ -63,10 +63,7 @@
 	function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-        console.log('Good to see you, ' + response.name + '.');
         document.getElementById('FBmessage').innerHTML='Good to see you,</br>' + response.name + '.';
-        console.log('Your Facebook ID is ' + response.id + '.');
-        console.log(response);
     });
 }
 	
