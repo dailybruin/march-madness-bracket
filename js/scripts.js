@@ -1,5 +1,6 @@
 // This function is called whenever a team's location is changed in the bracket
 function changeImage(id, a) {
+    setPermalink();
 	$('#'+id).attr('src',a);
     bracket = getWholeBracket();
     $.ajax({
@@ -21,6 +22,7 @@ function changeImage(id, a) {
 //  Returns: none
 function setBracket(uid)
 {
+    setPermalink();
 	var sendData = new Object();
 	if(uid != undefined)
 		sendData['uid'] = uid;

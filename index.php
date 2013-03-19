@@ -147,13 +147,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="Louisville">(1) Louisville</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Louisville">(1) Louisville</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="North Carolina A&T/Liberty">(16) NCAT/LIB</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="North Carolina A&T/Liberty">(16) NCAT/LIB</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-1', 'images/midwest/ncat_lib.png');">
@@ -170,13 +170,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(8) Colorado State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Colorado State">(8) Colorado State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(9) Missouri</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Missouri">(9) Missouri</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-2', 'images/midwest/missou_tigers.png');">
@@ -192,13 +192,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(5) Oklahoma State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Oklahoma State">(5) Oklahoma State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(12) Oregon</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Oregon">(12) Oregon</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-3', 'images/midwest/oregon.png');">
@@ -215,13 +215,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(4) Saint Louis</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Saint Louis">(4) Saint Louis</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(13) New Mexico St.</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="New Mexico State">(13) New Mexico St.</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-4', 'images/midwest/new_mex_state_aggies.png');">
@@ -238,13 +238,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(6) Memphis</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Memphis">(6) Memphis</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="Middle Tennessee State University/St. Mary's">(11) MTSU/STM</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Middle Tennessee State University/St. Mary's">(11) MTSU/STM</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-5', 'images/midwest/midd_tennessee_smc.png');">
@@ -261,13 +261,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(3) Michigan State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Michigan State">(3) Michigan State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(14) Valparaiso</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Valparaiso">(14) Valparaiso</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-6', 'images/midwest/valparaiso_crusaders.png');">
@@ -284,13 +284,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(7) Creighton</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Creighton">(7) Creighton</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(10) Cincinnati</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Cincinnati">(10) Cincinnati</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-7', 'images/midwest/cincinnati_bearcats.png');">
@@ -307,13 +307,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(2) Duke</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Duke">(2) Duke</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(15) Albany</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Albany">(15) Albany</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-8', 'images/midwest/albany.png');">
@@ -332,13 +332,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(1) Gonzaga</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Gonzaga">(1) Gonzaga</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(16) Southern University</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Southern University">(16) Southern University</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-9', 'images/west/southern_univ.png');">
@@ -354,13 +354,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(8) Pittsburgh</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Pittsburgh">(8) Pittsburgh</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(9) Wichita State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Wichita State">(9) Wichita State</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-10', 'images/west/wichita_state.png');">
@@ -376,13 +376,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(5) Wisconsin</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Wisconsin">(5) Wisconsin</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(12) Mississippi</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Mississippi">(12) Mississippi</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-11', 'images/west/ole_miss.png');">
@@ -398,13 +398,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(4) Kansas State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Kansas State">(4) Kansas State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="Boise State/La Salle">(13) BSU/La Salle</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Boise State/La Salle">(13) BSU/La Salle</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-12', 'images/west/boise_state_la_salle.png');">
@@ -420,13 +420,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(6) Arizona</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Arizona">(6) Arizona</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(11) Belmont</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Belmont">(11) Belmont</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-13', 'images/west/belmont_bruins.png');">
@@ -442,13 +442,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(3) New Mexico</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="New Mexico">(3) New Mexico</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(14) Harvard</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Harvard">(14) Harvard</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-14', 'images/west/harvard.png');">
@@ -464,13 +464,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(7) Notre Dame</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Notre Dame">(7) Notre Dame</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(10) Iowa State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Iowa State">(10) Iowa State</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-15', 'images/west/iowa_state.png');">
@@ -486,13 +486,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(2) Ohio State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Ohio State">(2) Ohio State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(15) Iona</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Iona">(15) Iona</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-16', 'images/west/iona.png');">
@@ -1169,13 +1169,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(1) Kansas</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Kansas">(1) Kansas</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(16) Western Kentucky</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Western Kentucky">(16) Western Kentucky</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-17', 'images/south/w_kentucky.png');">
@@ -1192,13 +1192,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(8) North Carolina</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="North Carolina">(8) North Carolina</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(9) Villanova</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Villanova">(9) Villanova</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-18', 'images/south/villanova.png');">
@@ -1215,13 +1215,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(5) VCU</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Virginia Commonwealth University">(5) VCU</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(12) Akron</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Akron">(12) Akron</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-19', 'images/south/akron.png');">
@@ -1238,13 +1238,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(4) Michigan</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Michigan">(4) Michigan</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(13) South Dakota St.</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="South Dakota State">(13) South Dakota St.</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-20', 'images/south/south_dakota_st.png');">
@@ -1261,13 +1261,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(6) UCLA</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="University of California, Los Angeles">(6) UCLA</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(11) Minnesota</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Minnesota">(11) Minnesota</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-21', 'images/south/minnesota.png');">
@@ -1284,13 +1284,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(3) Florida</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Florida">(3) Florida</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(14) Northwestern St.</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Northwestern State">(14) Northwestern St.</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-22', 'images/south/northwestern_state.png');">
@@ -1307,13 +1307,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(7) San Diego State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="San Diego State">(7) San Diego State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(10) Oklahoma</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Oklahoma">(10) Oklahoma</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-23', 'images/south/ok.png');">
@@ -1330,13 +1330,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(2) Georgetown</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Georgetown">(2) Georgetown</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(15) Florida Gulf Coast</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Florida Gulf Coast">(15) Florida Gulf Coast</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-24', 'images/south/fla_gulf_coast.png');">
@@ -1353,13 +1353,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(1) Indiana</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Indiana">(1) Indiana</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="LIU Brooklyn/James Madison">(16)LIU/JMU</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="LIU Brooklyn/James Madison">(16)LIU/JMU</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-25', 'images/east/liu_jamesmad.png');">
@@ -1376,13 +1376,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(8) NC State</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="North Carolina State">(8) NC State</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(9) Temple</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Temple">(9) Temple</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-26', 'images/east/temple.png');">
@@ -1399,13 +1399,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(5) UNLV</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Univeristy of Nevada, Las Vegas">(5) UNLV</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(12) California</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="University of California, Berkeley">(12) California</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-27', 'images/east/cal_bears.png');">
@@ -1422,13 +1422,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(4) Syracuse</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Syracuse">(4) Syracuse</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(13) Montana</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Montana">(13) Montana</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-28', 'images/east/montana.png');">
@@ -1445,13 +1445,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(6) Butler</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Butler">(6) Butler</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(11) Bucknell</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Bucknell">(11) Bucknell</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-29', 'images/east/bucknell.png');">
@@ -1468,13 +1468,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(3) Marquette</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Marquette">(3) Marquette</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(14) Davidson</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Davidson">(14) Davidson</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-30', 'images/east/davidson.png');">
@@ -1491,13 +1491,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(7) Illinois</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Illinois">(7) Illinois</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(10) Colorado</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Colorado">(10) Colorado</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-31', 'images/east/colorado_buffalo.png');">
@@ -1514,13 +1514,13 @@ else
 	  			</a>
 	  		</div>
 	  		<div class="schooltextblock left">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The UCLA Bruins men's basketball program, established in 1920, owns a record 11 Division I NCAA championships. UCLA teams coached by John Wooden won 10 national titles in 12 seasons from 1964 to 1975, including 7 straight from 1967 to 1973.">(2) Miami</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Miami">(2) Miami</span>
 	  		</div>
 	  		<div class="schoolvs left">
 	  			<img src="images/vs.png" />
 	  		</div>
 	  		<div class="schooltextblock right">
-	  			<span data-tooltip class="has-tip" data-width="30em" title="The Duke Blue Devils men's basketball team is the college basketball program representing Duke University in the Atlantic Coast Conference of NCAA Division I">(15) Pacific</span>
+	  			<span data-tooltip class="has-tip" data-width="10em" title="Pacific">(15) Pacific</span>
 	  		</div>
 	  		<div class="schoolimageblock right">
 	  			<a href="javascript:void(0)" onclick="changeImage('1-32', 'images/east/pacific_tigers.png');">
@@ -1534,7 +1534,7 @@ else
 	  
    </div><!-- end div.row.vanilla -->
 <div class="row" id="row-credit">
-	<span>Interactive bracket by Calvin Chan, Daniel Duan, and Forrest Lee.</span>
+	<span>Interactive bracket by Calvin Chan, Daniel Duan, and Forrest Lee. &copy; Daily Bruin 2013. All rights reserved. <a href="http://dailybruin.com/contact-us/">Contact us.</a></span>
 </div><!-- end div#row-credit -->
    <!-- Joyride guides -->
    <ol class="joyride-list" data-joyride data-options="cookieMonster: true">
