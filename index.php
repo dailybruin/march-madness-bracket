@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php 
+if(isset($_GET['b']))
+	$static_bracket = true;
+else
+	$static_bracket = false;
+if($static_bracket)
+?><!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -24,11 +30,26 @@
   <link rel="stylesheet" href="css/foundation.min.css" />
   <link rel="stylesheet" href="css/styles.css">
 
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+ 
+  <script src="js/foundation.min.js"></script>
+
+
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/scripts.js"></script>
+
+
 </head>
 <body>
+	<?php 
+	// We only want to load the FB stuff if we are planning on letting
+	// the user save
+	if(!$static_bracket):?>
 		<!-- Facebook Header -->
 	<div id="fb-root"></div>
 	<script>
@@ -42,9 +63,16 @@
 	    });
 	    
 	    // Additional initialization code such as adding Event Listeners goes here
-	    
+	    FB.getLoginStatus(function(response) {
+	    	if(response.status === 'connected')
+	    	{
+				testAPI();
+	            document.getElementById('FBconnect').src="images/FBconnectgrey.png";
+	            document.getElementById('FBlink').onclick = function() { return 0; };
+	    	}
+	    });
 	  };
-	  
+
 		function login() {
 		    FB.login(function(response) {
 		        if (response.authResponse) {
@@ -52,7 +80,6 @@
 		            testAPI();
 		            document.getElementById('FBconnect').src="images/FBconnectgrey.png";
 		            document.getElementById('FBlink').onclick = function() { return 0; };
-		            setBracket();
 		            
 		        } else {
 		            // cancelled
@@ -61,9 +88,11 @@
 		}
 
 	function testAPI() {
-    console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-        document.getElementById('FBmessage').innerHTML='Good to see you,</br>' + response.name + '.';
+        document.getElementById('FBmessage').innerHTML='Good to see you,</br>' + response.name + '.' + 
+        '<span class="fb-logout">Not you? <a href="#" id="fb-logout-button">Logout of Facebook.</a>';
+        initLogoutButton();
+        setBracket();
     });
 }
 	
@@ -79,6 +108,7 @@
 	     ref.parentNode.insertBefore(js, ref);
 	   }(document, /*debug*/ false));
 	</script>
+	<?php endif; ?>
 
   <!-- Text Banner -->
   
@@ -771,9 +801,16 @@
 	  
 	  <div class="large-2 columns text-center middlecolumns">
 	  	<div style="height:11em">
+	  		<?php if(!$static_bracket): ?>
 	  		<a href="javascript:void(0)" id="FBlink" onclick="login();">
 	  			<img id="FBconnect" src="images/FBconnect.png" />
 	  		</a>
+		  	<?php else: ?>
+		  		<div id="bracket-name">
+			  		<span>This is a TEST BRACKET.</span>
+			  		<a href="index.php">Click here to create your own</a>
+			  	</div><!-- end div#bracket-name -->
+		    <?php endif; ?>
 	  		<span id="FBmessage"></span>
 		</div>
 	  	<div>
@@ -1496,7 +1533,7 @@
 	  
    </div>
    <!-- Joyride guides -->
-   <ol class="joyride-list" data-joyride>
+   <ol class="joyride-list" data-joyride data-options="cookieMonster: true">
   <li data-id="FBconnect" data-text="Next" data-options="tipAnimation:fade">
     <p>Welcome. Sign in to Facebook to automatically save your progress from now on.</p>
   </li>
@@ -1511,19 +1548,23 @@
   </li>
   </ol>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
   
-  <script src="js/foundation.min.js"></script>
-  
-  <script>
-    $(document).foundation();
-  </script>
-  <script type="text/javascript">
-  $(document).foundation('joyride', 'start');
+<script>
+$(document).foundation();
+</script>
+
+<script type="text/javascript">
+<?php if(!$static_bracket): ?>
+	$(document).foundation('joyride', 'start');
+<?php else: 
+	// We need to make sure the user can't modify the look of the bracket
+?>
+	$(document).ready(function(){
+		$('.schoolimageblock > a').attr('onclick','').unbind('click');
+		$('.bracketicon > a').attr('onclick','').unbind('click');
+	});
+<?php endif; ?>
+
 </script>
 </body>
 </html>

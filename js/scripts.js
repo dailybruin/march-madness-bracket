@@ -26,6 +26,7 @@ function setBracket()
 		dataType: "json",
 		success: function(data)
 		{
+			console.log(data);
 			for(key in data)
 				$('#'+key).attr('src',data[key]);
 		}
@@ -74,5 +75,16 @@ function getNameFromURL(img) {
 function getInnerImage() {
 	return this.getElementsByTagName("img")[0].src;
 	
+}
+
+// We need the logout button to actually work
+function initLogoutButton()
+{
+	$('#fb-logout-button').click(function(e) {
+		e.preventDefault();
+		FB.logout(function(response){
+			location.reload();
+		});
+	});
 }
 
