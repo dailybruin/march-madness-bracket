@@ -17,7 +17,7 @@ else
   <!--<meta name="viewport" content="width=device-width" />-->
 
   <title>March Madness - Daily Bruin</title>
-  <link rel="shortcut icon" href="images/favicon.ico"> 
+  <link rel="shortcut icon" href="/images/favicon.ico"> 
 
   <!-- Included CSS Files (Uncompressed) -->
   <!--
