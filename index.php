@@ -12,7 +12,12 @@ else
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-
+  <TITLE>March Madness - Daily Bruin</TITLE>
+  <META NAME="description" CONTENT="Fill out a March Madness bracket online and share it with your friends on Facebook.">
+  <META NAME="keywords" CONTENT="march, madness, ncaa, basketball, ucla, daily, bruin,">
+  <META NAME="robot" CONTENT="index,follow">
+  <META NAME="copyright" CONTENT="Copyright © 2013 Daily Bruin. All rights reserved.">
+  <META NAME="author" CONTENT="Calvin Chan, Daniel Duan, and Forrest Lee">
   <!-- Set the viewport width to device width for mobile -->
   <!--<meta name="viewport" content="width=device-width" />-->
 
